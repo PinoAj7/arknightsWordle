@@ -13,14 +13,13 @@ return new class extends Migration
     {
         Schema::create('characters', function (Blueprint $table) {
             $table->id();
-            $table->string('image')->nullable();    
-            $table->string('name');                  
-            $table->string('faction')->nullable();  
-            $table->string('class')->nullable();    
-            $table->string('archetype')->nullable();     
-            $table->string('rarity')->nullable();    
-            $table->string('dp_cost')->nullable();     
-            $table->timestamps();
+            $table->string('image');    
+            $table->string('name')->unique();                  
+            $table->string('faction');  
+            $table->string('class');    
+            $table->string('archetype');     
+            $table->string('rarity');    
+            $table->integer('dp_cost');
         });
 
     }

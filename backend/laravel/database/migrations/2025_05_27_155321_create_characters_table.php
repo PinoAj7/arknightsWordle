@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('archetype');     
             $table->string('rarity');    
             $table->integer('dp_cost');
+            $table->timestamps();
         });
 
     }

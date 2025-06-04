@@ -20,6 +20,10 @@ class CharacterController extends Controller
 
     public function store(Request $request)
     {
+        if (!$request->user() || !$request->user()->is_admin) {
+            return response()->json(['message' => 'Acceso denegado'], 403);
+        }
+
         $validated = $request->validate([
             'image' => 'required|string', 
             'name' => 'required|string|max:255',
@@ -37,6 +41,10 @@ class CharacterController extends Controller
 
     public function update(Request $request, $id)
     {
+        if (!$request->user() || !$request->user()->is_admin) {
+            return response()->json(['message' => 'Acceso denegado'], 403);
+        }
+
         $character = Character::findOrFail($id);
         $character->update($request->all());
 
@@ -45,6 +53,10 @@ class CharacterController extends Controller
 
     public function destroy($id)
     {
+        if (!$request->user() || !$request->user()->is_admin) {
+            return response()->json(['message' => 'Acceso denegado'], 403);
+        }
+        
         $character = Character::findOrFail($id);
         $character->delete();
 

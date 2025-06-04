@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Score;
 use Illuminate\Http\Request;
 
 class ScoreController extends Controller
@@ -11,20 +12,23 @@ class ScoreController extends Controller
         return Score::with('user')->get();
     }
 
-    public function myScores(Request $request)
+    public function myScores($userId)
     {
-        return Score::where('user_id', $request->user()->id)->get();
+        return Score::where('user_id', $userId)->get();
     }
+
 
     public function store(Request $request)
     {
-        $request->validate([
-            'points' => 'required|integer|min:0',
+        $validated = $request->validate([
+            'user_id' => 'required|integer|exists:users,id',
+            'points' => 'required|integer',
         ]);
 
-        return Score::create([
-            'user_id' => $request->user()->id,
-            'points' => $request->points,
-        ]);
+        $validated['date'] = now()->toDateString();
+
+        $score = Score::create($validated);
+
+        return response()->json($score, 201);
     }
 }

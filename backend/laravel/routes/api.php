@@ -18,24 +18,27 @@ Route::get('/characters', [CharacterController::class, 'index'])->middleware('au
 Route::get('/characters/{id}', [CharacterController::class, 'show'])->middleware('auth:sanctum');
 
 Route::post('/characters', [CharacterController::class, 'store'])
-    ->middleware(['auth:sanctum', 'is_admin']);
+    ->middleware(['auth:sanctum']);
 
 Route::put('/characters/{id}', [CharacterController::class, 'update'])
-    ->middleware(['auth:sanctum', 'is_admin']);
+    ->middleware(['auth:sanctum']);
 
 Route::delete('/characters/{id}', [CharacterController::class, 'destroy'])
-    ->middleware(['auth:sanctum', 'is_admin']);
+    ->middleware(['auth:sanctum']);
 
-Route::get('/users', [UserController::class, 'index'])->middleware(['auth:sanctum', 'is_admin']);
+Route::get('/users', [UserController::class, 'index'])->middleware(['auth:sanctum']);
 
-Route::get('/users/{id}', [UserController::class, 'show'])->middleware(['auth:sanctum', 'is_admin']);
+Route::post('/users', [UserController::class, 'store'])->middleware(['auth:sanctum']);
 
-Route::put('/users/{id}', [UserController::class, 'update'])->middleware(['auth:sanctum', 'is_admin']);
+Route::get('/users/{id}', [UserController::class, 'show'])->middleware(['auth:sanctum']);
 
-Route::delete('/users/{id}', [UserController::class, 'destroy'])->middleware(['auth:sanctum', 'is_admin']);
+Route::put('/users/{id}', [UserController::class, 'update'])->middleware(['auth:sanctum']);
+
+Route::delete('/users/{id}', [UserController::class, 'destroy'])->middleware(['auth:sanctum']);
 
 Route::get('/scores', [ScoreController::class, 'index'])->middleware('auth:sanctum');
 
 Route::post('/scores', [ScoreController::class, 'store'])->middleware('auth:sanctum');
 
-Route::get('/scores/user', [ScoreController::class, 'myScores'])->middleware('auth:sanctum');
+Route::get('/scores/user/{userId}', [ScoreController::class, 'myScores'])->middleware('auth:sanctum');
+

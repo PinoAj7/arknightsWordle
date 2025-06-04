@@ -23,3 +23,17 @@ Route::put('/characters/{id}', [CharacterController::class, 'update'])
 
 Route::delete('/characters/{id}', [CharacterController::class, 'destroy'])
     ->middleware(['auth:sanctum', 'admin']);
+
+Route::get('/users', [UserController::class, 'index'])->middleware(['auth:sanctum', 'admin']);
+
+Route::get('/users/{id}', [UserController::class, 'show'])->middleware(['auth:sanctum', 'admin']);
+
+Route::put('/users/{id}', [UserController::class, 'update'])->middleware(['auth:sanctum', 'admin']);
+
+Route::delete('/users/{id}', [UserController::class, 'destroy'])->middleware(['auth:sanctum', 'admin']);
+
+Route::get('/scores', [ScoreController::class, 'index'])->middleware('auth:sanctum');
+
+Route::post('/scores', [ScoreController::class, 'store'])->middleware('auth:sanctum');
+
+Route::get('/scores/user', [ScoreController::class, 'myScores'])->middleware('auth:sanctum');

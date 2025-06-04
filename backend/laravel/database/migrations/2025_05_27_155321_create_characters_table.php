@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('faction');  
             $table->string('class');    
             $table->string('archetype');     
-            $table->string('rarity');    
+            $table->integer('rarity');    
             $table->integer('dp_cost');
             $table->timestamps();
         });

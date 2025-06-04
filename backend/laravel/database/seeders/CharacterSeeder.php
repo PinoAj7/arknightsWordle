@@ -21,7 +21,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lee's_Detective_Agency.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Geek_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 13,
             ],
             [
@@ -30,7 +30,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -39,7 +39,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -48,7 +48,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-S.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Ambusher_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -57,7 +57,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -66,7 +66,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 13,
             ],
             [
@@ -75,7 +75,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Elite_Op.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -84,7 +84,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Elite_Op.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Primal_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -93,7 +93,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -102,7 +102,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Phalanx_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -111,7 +111,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -120,7 +120,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen_Guard_Department.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Swordmaster_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -129,7 +129,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Spreadshooter_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 32,
             ],
             [
@@ -138,7 +138,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sui.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 11,
             ],
             [
@@ -147,7 +147,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Bard_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 10,
             ],
             [
@@ -156,7 +156,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -165,7 +165,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Swordmaster_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -174,7 +174,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Trapmaster_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -183,7 +183,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sui.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 34,
             ],
             [
@@ -192,7 +192,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mystic_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 25,
             ],
             [
@@ -201,7 +201,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Trapmaster_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -210,7 +210,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Reaper_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -219,7 +219,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/38px-Duelist_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 33,
             ],
             [
@@ -228,7 +228,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Reaper_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -237,7 +237,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Penguin_Logistics.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -246,7 +246,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Penguin_Logistics.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Geek_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 13,
             ],
             [
@@ -255,7 +255,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -264,7 +264,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Wandering_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -273,7 +273,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Pinus_Sylvestris.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/49px-Deadeye_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -282,7 +282,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 29,
             ],
             [
@@ -291,7 +291,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Pinus_Sylvestris.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -300,7 +300,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -309,7 +309,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Abyssal_Hunters.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/48px-Hookmaster_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -318,7 +318,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/35px-Hexer_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 13,
             ],
             [
@@ -327,7 +327,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mech-Accord_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -336,7 +336,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Soloblade_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 26,
             ],
             [
@@ -345,7 +345,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -354,7 +354,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Babel.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Crusher_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -363,7 +363,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/43px-Fortress_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 28,
             ],
             [
@@ -372,7 +372,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen_Guard_Department.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -381,7 +381,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/49px-Blast_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 34,
             ],
             [
@@ -390,7 +390,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Babel.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Agent_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 11,
             ],
             [
@@ -399,7 +399,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Swordmaster_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -408,7 +408,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Sentry_Protector_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -417,7 +417,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -426,7 +426,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_A4.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 10,
             ],
             [
@@ -435,7 +435,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mech-Accord_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -444,7 +444,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lee's_Detective_Agency.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Merchant_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 9,
             ],
             [
@@ -453,7 +453,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/49px-Deadeye_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -462,7 +462,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -471,7 +471,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Phalanx_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -480,7 +480,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sui.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Summoner_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -489,7 +489,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Elite_Op.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -498,7 +498,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/47px-Therapist_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -507,7 +507,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Summoner_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -516,7 +516,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laios_Party.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 34,
             ],
             [
@@ -525,7 +525,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Ambusher_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -534,7 +534,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Chain_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 18,
             ],
             [
@@ -543,7 +543,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 34,
             ],
             [
@@ -552,7 +552,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 11,
             ],
             [
@@ -561,7 +561,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/46px-Juggernaut_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 36,
             ],
             [
@@ -570,7 +570,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Tactician_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 15,
             ],
             [
@@ -579,7 +579,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/48px-Liberator_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -588,7 +588,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/45px-Loopshooter_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -597,7 +597,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 19,
             ],
             [
@@ -606,7 +606,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Tara.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Shaper_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -615,7 +615,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sui.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -624,7 +624,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Followers.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Multi-target_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 18,
             ],
             [
@@ -633,7 +633,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Primal_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -642,7 +642,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Minos.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Instructor_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 17,
             ],
             [
@@ -651,7 +651,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/43px-Chain_Caster.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 33,
             ],
             [
@@ -660,7 +660,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/46px-Juggernaut_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 36,
             ],
             [
@@ -669,7 +669,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Earthshaker_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -678,7 +678,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 10,
             ],
             [
@@ -687,7 +687,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Heavyshooter_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -696,7 +696,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -705,7 +705,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/47px-Hunter_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -714,7 +714,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Tara.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Incantation_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 17,
             ],
             [
@@ -723,7 +723,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus_Student_Self-Governing_Group.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Besieger_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -732,7 +732,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Elite_Op.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Flinger_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 25,
             ],
             [
@@ -741,7 +741,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -750,7 +750,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Standard_Bearer_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 12,
             ],
             [
@@ -759,7 +759,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Sentry_Protector_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 25,
             ],
             [
@@ -768,7 +768,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -777,7 +777,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siesta.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Heavyshooter_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -786,7 +786,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Followers.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -795,7 +795,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sui.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 22,
             ],
             [
@@ -804,7 +804,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Glasgow.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -813,7 +813,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Abjurer_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 15,
             ],
             [
@@ -822,7 +822,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -831,7 +831,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Abyssal_Hunters.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 19,
             ],
             [
@@ -840,7 +840,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Aegir.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Bard_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 8,
             ],
             [
@@ -849,7 +849,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Abyssal_Hunters.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Dollkeeper_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -858,7 +858,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Aegir.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/48px-Artificer_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 19,
             ],
             [
@@ -867,7 +867,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Arts_Fighter_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -876,7 +876,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -885,7 +885,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Merchant_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 9,
             ],
             [
@@ -894,7 +894,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Penguin_Logistics.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 10,
             ],
             [
@@ -903,7 +903,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 20,
             ],
             [
@@ -912,7 +912,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/47px-Alchemist_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 18,
             ],
             [
@@ -921,7 +921,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sami.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Besieger_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -930,7 +930,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Abyssal_Hunters.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Crusher_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 24,
             ],
             [
@@ -939,7 +939,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Tactician_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 17,
             ],
             [
@@ -948,7 +948,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Arts_Fighter_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -957,7 +957,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/34px-Ritualist_Supporter.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 16,
             ],
             [
@@ -966,7 +966,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Arts_Fighter_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -975,7 +975,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 14,
             ],
             [
@@ -984,7 +984,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Babel.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 29,
             ],
             [
@@ -993,7 +993,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Push_Stroker_Specialist.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 21,
             ],
             [
@@ -1002,7 +1002,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Babel.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Flinger_Sniper.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 25,
             ],
             [
@@ -1011,7 +1011,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sui.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Primal_Protector_Defender.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 26,
             ],
             [
@@ -1020,7 +1020,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Soloblade_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 26,
             ],
             // 5 Estrellas
@@ -1030,7 +1030,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1039,7 +1039,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Soloblade_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -1048,7 +1048,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/48px-Artificer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -1057,7 +1057,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/48px-Hookmaster_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1066,7 +1066,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1075,7 +1075,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Abyssal_Hunters.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/49px-Deadeye_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1084,7 +1084,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Chiave_Gang.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Spreadshooter_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 31,
             ],
             [
@@ -1093,7 +1093,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1102,7 +1102,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/49px-Blast_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 33,
             ],
             [
@@ -1111,7 +1111,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Arts_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -1120,7 +1120,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Pinus_Sylvestris.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/43px-Fortress_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 27,
             ],
             [
@@ -1129,7 +1129,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Arts_Fighter_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1138,7 +1138,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/43px-Chain_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 34,
             ],
             [
@@ -1147,7 +1147,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/38px-Duelist_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 32,
             ],
             [
@@ -1156,7 +1156,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -1165,7 +1165,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1174,7 +1174,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Phalanx_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -1183,7 +1183,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Dollkeeper_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -1192,7 +1192,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sami.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Swordmaster_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1201,7 +1201,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 24,
             ],
             [
@@ -1210,7 +1210,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Tactician_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 14,
             ],
             [
@@ -1219,7 +1219,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Sentry_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1228,7 +1228,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1237,7 +1237,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/34px-Ritualist_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1246,7 +1246,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Multi-target_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -1255,7 +1255,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Tara.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/45px-Loopshooter_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -1264,7 +1264,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Chiave_Gang.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -1273,7 +1273,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siesta.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Instructor_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -1282,7 +1282,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Agent_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 10,
             ],
             [
@@ -1291,7 +1291,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/48px-Artificer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1300,7 +1300,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/38px-Duelist_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 32,
             ],
             [
@@ -1309,7 +1309,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siesta.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/47px-Therapist_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1318,7 +1318,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Chiave_Gang.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1327,7 +1327,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laios_Party.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Agent_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 10,
             ],
             [
@@ -1336,7 +1336,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/48px-Hookmaster_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1345,7 +1345,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/47px-Hunter_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1354,7 +1354,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/49px-Blast_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 33,
             ],
             [
@@ -1363,7 +1363,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Penguin_Logistics.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1372,7 +1372,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Arts_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 27,
             ],
             [
@@ -1381,7 +1381,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Glasgow.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -1390,7 +1390,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mystic_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 26,
             ],
             [
@@ -1399,7 +1399,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Primal_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1408,7 +1408,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Instructor_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 16,
             ],
             [
@@ -1417,7 +1417,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Standard_Bearer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -1426,7 +1426,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Push_Stroker_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1435,7 +1435,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Minos.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Besieger_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -1444,7 +1444,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Spreadshooter_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 31,
             ],
             [
@@ -1453,7 +1453,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -1462,7 +1462,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Push_Stroker_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1471,7 +1471,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Merchant_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 8,
             ],
             [
@@ -1480,7 +1480,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/49px-Deadeye_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1489,7 +1489,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/43px-Fortress_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 27,
             ],
             [
@@ -1498,7 +1498,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1507,7 +1507,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 10,
             ],
             [
@@ -1516,7 +1516,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1525,7 +1525,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -1534,7 +1534,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Trapmaster_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -1543,7 +1543,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -1552,7 +1552,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1561,7 +1561,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Primal_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1570,7 +1570,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1579,7 +1579,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 14,
             ],
             [
@@ -1588,7 +1588,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1597,7 +1597,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Flinger_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 24,
             ],
             [
@@ -1606,7 +1606,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Tara.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mystic_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 24,
             ],
             [
@@ -1615,7 +1615,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Wandering_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -1624,7 +1624,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 24,
             ],
             [
@@ -1633,7 +1633,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Bard_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 9,
             ],
             [
@@ -1642,7 +1642,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Incantation_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -1651,7 +1651,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Reaper_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1660,7 +1660,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Wandering_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1669,7 +1669,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lee's_Detective_Agency.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1678,7 +1678,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Dollkeeper_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1687,7 +1687,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Glasgow.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 10,
             ],
             [
@@ -1696,7 +1696,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1705,7 +1705,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mystic_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1714,7 +1714,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus_Student_Self-Governing_Group.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1723,7 +1723,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 30,
             ],
             [
@@ -1732,7 +1732,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 9,
             ],
             [
@@ -1741,7 +1741,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Dollkeeper_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1750,7 +1750,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -1759,7 +1759,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Ambusher_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1768,7 +1768,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mech-Accord_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -1777,7 +1777,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1786,7 +1786,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Reaper_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1795,7 +1795,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laios_Party.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -1804,7 +1804,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -1813,7 +1813,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 35,
             ],
             [
@@ -1822,7 +1822,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/43px-Chain_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 32,
             ],
             [
@@ -1831,7 +1831,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 33,
             ],
             [
@@ -1840,7 +1840,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus_Student_Self-Governing_Group.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -1849,7 +1849,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Sentry_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -1858,7 +1858,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Aegir.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/35px-Hexer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -1867,7 +1867,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/49px-Deadeye_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1876,7 +1876,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Ambusher_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1885,7 +1885,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Summoner_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -1894,7 +1894,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Heavyshooter_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -1903,7 +1903,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 28,
             ],
             [
@@ -1912,7 +1912,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mech-Accord_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -1921,7 +1921,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Phalanx_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -1930,7 +1930,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Tactician_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 14,
             ],
             [
@@ -1939,7 +1939,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Glasgow.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1948,7 +1948,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Merchant_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 8,
             ],
             [
@@ -1957,7 +1957,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Wandering_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -1966,7 +1966,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Followers.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -1975,7 +1975,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -1984,7 +1984,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Abjurer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -1993,7 +1993,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/47px-Therapist_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -2002,7 +2002,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Earthshaker_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -2011,7 +2011,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Chain_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -2020,7 +2020,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Chain_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -2029,7 +2029,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Primal_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -2038,7 +2038,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2047,7 +2047,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siesta.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2056,7 +2056,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/35px-Hexer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2065,7 +2065,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-S.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 9,
             ],
             [
@@ -2074,7 +2074,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Heavyshooter_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -2083,7 +2083,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -2092,7 +2092,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Multi-target_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -2101,7 +2101,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Agent_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2110,7 +2110,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sami.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -2119,7 +2119,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Abjurer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2128,7 +2128,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_A4.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Soloblade_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -2137,7 +2137,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2146,7 +2146,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Trapmaster_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2155,7 +2155,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mech-Accord_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -2164,7 +2164,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Multi-target_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -2173,7 +2173,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Summoner_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -2182,7 +2182,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sami.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 33,
             ],
             [
@@ -2191,7 +2191,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -2200,7 +2200,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Summoner_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -2209,7 +2209,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laios_Party.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -2218,7 +2218,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 28,
             ],
             [
@@ -2227,7 +2227,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Arts_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 25,
             ],
             [
@@ -2236,7 +2236,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/35px-Hexer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2245,7 +2245,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Minos.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Arts_Fighter_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -2254,7 +2254,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhine_Lab.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -2263,7 +2263,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 33,
             ],
             [
@@ -2272,7 +2272,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/48px-Hookmaster_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -2281,7 +2281,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Penguin_Logistics.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Bard_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 7,
             ],
             [
@@ -2290,7 +2290,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Abyssal_Hunters.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -2299,7 +2299,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Geek_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2308,7 +2308,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Agent_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 10,
             ],
             [
@@ -2317,7 +2317,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen_Guard_Department.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Instructor_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 16,
             ],
             [
@@ -2326,7 +2326,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Team_Rainbow.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Swordmaster_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 24,
             ],
             [
@@ -2335,7 +2335,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Shaper_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -2344,7 +2344,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/48px-Liberator_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2353,7 +2353,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Penguin_Logistics.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2362,7 +2362,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/47px-Alchemist_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -2371,7 +2371,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Besieger_Sniper.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [
@@ -2380,7 +2380,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 22,
             ],
             [
@@ -2389,7 +2389,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Abjurer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 12,
             ],
             [
@@ -2398,7 +2398,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 21,
             ],
             [
@@ -2407,7 +2407,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Aegir.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/40px-Sentry_Protector_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 24,
             ],
             [
@@ -2416,7 +2416,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sami.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/34px-Ritualist_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 15,
             ],
             [
@@ -2425,7 +2425,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Incantation_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 17,
             ],
             [
@@ -2434,7 +2434,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Minos.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/46px-Juggernaut_Defender.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 35,
             ],
             [
@@ -2443,7 +2443,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lee's_Detective_Agency.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 9,
             ],
             [
@@ -2452,7 +2452,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Standard_Bearer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2461,7 +2461,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 19,
             ],
             [
@@ -2470,7 +2470,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rim_Billiton.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Primal_Caster.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -2479,7 +2479,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Instructor_Guard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -2488,7 +2488,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/47px-Therapist_Medic.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 20,
             ],
             [
@@ -2497,7 +2497,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Pinus_Sylvestris.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 14,
             ],
             [
@@ -2506,7 +2506,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Crusher_Guard.webp',
-                'rarity' => '6★',
+                'rarity' => 6,
                 'dp_cost' => 23,
             ],
             [
@@ -2515,7 +2515,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/48px-Artificer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 18,
             ],
             [
@@ -2524,7 +2524,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Trapmaster_Specialist.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 11,
             ],
             [
@@ -2533,7 +2533,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Abjurer_Supporter.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             [
@@ -2542,7 +2542,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus_Student_Self-Governing_Group.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '5★',
+                'rarity' => 5,
                 'dp_cost' => 13,
             ],
             // 4 Estrellas
@@ -2552,7 +2552,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Heavyshooter_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 18,
             ],
             [
@@ -2561,7 +2561,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/49px-Deadeye_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 20,
             ],
             [
@@ -2570,7 +2570,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 18,
             ],
             [
@@ -2579,7 +2579,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Tactician_Vanguard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 13,
             ],
             [
@@ -2588,7 +2588,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 9,
             ],
             [
@@ -2597,7 +2597,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 21,
             ],
             [
@@ -2606,7 +2606,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/45px-Loopshooter_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 14,
             ],
             [
@@ -2615,7 +2615,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/50px-Wandering_Medic.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 14,
             ],
             [
@@ -2624,7 +2624,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mech-Accord_Caster.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 20,
             ],
             [
@@ -2633,7 +2633,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Skyranger_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 16,
             ],
             [
@@ -2642,7 +2642,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Minos.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 16,
             ],
             [
@@ -2651,7 +2651,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -2660,7 +2660,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 21,
             ],
             [
@@ -2669,7 +2669,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Swordmaster_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 21,
             ],
             [
@@ -2678,7 +2678,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Aegir.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Summoner_Supporter.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 10,
             ],
             [
@@ -2687,7 +2687,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Instructor_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 15,
             ],
             [
@@ -2696,7 +2696,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Arts_Protector_Defender.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 24,
             ],
             [
@@ -2705,7 +2705,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Leithanien.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 14,
             ],
             [
@@ -2714,7 +2714,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 22,
             ],
             [
@@ -2723,7 +2723,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Ambusher_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 19,
             ],
             [
@@ -2732,7 +2732,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 18,
             ],
             [
@@ -2741,7 +2741,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 18,
             ],
             [
@@ -2750,7 +2750,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sami.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 32,
             ],
             [
@@ -2759,7 +2759,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 8,
             ],
             [
@@ -2768,7 +2768,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 32,
             ],
             [
@@ -2777,7 +2777,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Ursus_Student_Self-Governing_Group.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 20,
             ],
             [
@@ -2786,7 +2786,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 19,
             ],
             [
@@ -2795,7 +2795,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Reaper_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 21,
             ],
             [
@@ -2804,7 +2804,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Iberia.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Mystic_Caster.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 23,
             ],
             [
@@ -2813,7 +2813,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/49px-Fighter_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 9,
             ],
             [
@@ -2822,7 +2822,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Merchant_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 7,
             ],
             [
@@ -2831,7 +2831,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -2840,7 +2840,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 17,
             ],
             [
@@ -2849,7 +2849,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Bolívar.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/46px-Juggernaut_Defender.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 34,
             ],
             [
@@ -2858,7 +2858,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 17,
             ],
             [
@@ -2867,7 +2867,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Karlan_Trade.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 21,
             ],
             [
@@ -2876,7 +2876,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -2885,7 +2885,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Kazimierz.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -2894,7 +2894,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Arts_Fighter_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 20,
             ],
             [
@@ -2903,7 +2903,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 18,
             ],
             [
@@ -2912,7 +2912,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Standard_Bearer_Vanguard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 10,
             ],
             [
@@ -2921,7 +2921,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Multi-target_Medic.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 16,
             ],
             [
@@ -2930,7 +2930,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Spreadshooter_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 30,
             ],
             [
@@ -2939,7 +2939,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 14,
             ],
             [
@@ -2948,7 +2948,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/43px-Chain_Caster.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 31,
             ],
             [
@@ -2957,7 +2957,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/47px-Therapist_Medic.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 19,
             ],
             [
@@ -2966,7 +2966,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Crusher_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 22,
             ],
             [
@@ -2975,7 +2975,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/48px-Artificer_Supporter.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 17,
             ],
             [
@@ -2984,7 +2984,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/48px-Hookmaster_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -2993,7 +2993,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-S.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -3002,7 +3002,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Lungmen.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Push_Stroker_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 19,
             ],
             [
@@ -3011,7 +3011,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 27,
             ],
             [
@@ -3020,7 +3020,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 18,
             ],
             [
@@ -3029,7 +3029,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Sargon.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Besieger_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 22,
             ],
             [
@@ -3038,7 +3038,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Higashi.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Soloblade_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 24,
             ],
             [
@@ -3047,7 +3047,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Victoria.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Dollkeeper_Specialist.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 14,
             ],
             [
@@ -3056,7 +3056,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Siracusa.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 12,
             ],
             [
@@ -3065,7 +3065,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Columbia.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 11,
             ],
             [
@@ -3074,7 +3074,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/48px-Liberator_Guard.webp',
-                'rarity' => '4★',
+                'rarity' => 4,
                 'dp_cost' => 11,
             ],
             // 3 Estrellas
@@ -3084,7 +3084,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A4.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 11,
             ],
             [
@@ -3093,7 +3093,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A4.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 17,
             ],
             [
@@ -3102,7 +3102,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A1.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 18,
             ],
             [
@@ -3111,7 +3111,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A4.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 18,
             ],
             [
@@ -3120,7 +3120,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A6.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Artilleryman_Sniper.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 23,
             ],
             [
@@ -3129,7 +3129,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A1.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 11,
             ],
             [
@@ -3138,7 +3138,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A1.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 17,
             ],
             [
@@ -3147,7 +3147,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A1.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 11,
             ],
             [
@@ -3156,7 +3156,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A1.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 30,
             ],
             [
@@ -3165,7 +3165,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A4.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 15,
             ],
             [
@@ -3174,7 +3174,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A6.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Lord_Guard.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 16,
             ],
             [
@@ -3183,7 +3183,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A6.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Decel_Binder_Supporter.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 12,
             ],
             [
@@ -3192,7 +3192,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Charger_Vanguard.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 10,
             ],
             [
@@ -3201,7 +3201,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A6.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Centurion_Guard.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 19,
             ],
             [
@@ -3210,7 +3210,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A6.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Guardian_Defender.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 17,
             ],
             [
@@ -3219,7 +3219,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_Reserve_A4.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 18,
             ],
             [
@@ -3228,7 +3228,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Blacksteel.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '3★',
+                'rarity' => 3,
                 'dp_cost' => 11,
             ],
             // 2 Estrellas
@@ -3238,7 +3238,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/50px-Splash_Caster.webp',
-                'rarity' => '2★',
+                'rarity' => 2,
                 'dp_cost' => 24,
             ],
             [
@@ -3247,7 +3247,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_A4.webp",
                 'class' => 'images/classes/50px-Caster.png',
                 'archetype' => 'images/archetypes/caster/Core_Caster.webp',
-                'rarity' => '2★',
+                'rarity' => 2,
                 'dp_cost' => 12,
             ],
             [
@@ -3256,7 +3256,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_A4.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '2★',
+                'rarity' => 2,
                 'dp_cost' => 14,
             ],
             [
@@ -3265,7 +3265,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_A4.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '2★',
+                'rarity' => 2,
                 'dp_cost' => 7,
             ],
             [
@@ -3274,7 +3274,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Op_A4.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '2★',
+                'rarity' => 2,
                 'dp_cost' => 7,
             ],
             // 1 Estrella
@@ -3284,7 +3284,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Dreadnought_Guard.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3293,7 +3293,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Laterano.webp",
                 'class' => 'images/classes/50px-Vanguard.png',
                 'archetype' => 'images/archetypes/vanguard/50px-Pioneer_Vanguard.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3302,7 +3302,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Defender.png',
                 'archetype' => 'images/archetypes/defender/39px-Protector_Defender.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3311,7 +3311,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Pinus_Sylvestris.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/48px-Marksman_Sniper.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3320,7 +3320,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/49px-Medic.png',
                 'archetype' => 'images/archetypes/medic/46px-Medic_Medic.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3329,7 +3329,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/34px-Ritualist_Supporter.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3338,7 +3338,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Sniper.png',
                 'archetype' => 'images/archetypes/sniper/50px-Flinger_Sniper.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3347,7 +3347,7 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/50px-Specialist.png',
                 'archetype' => 'images/archetypes/specialist/50px-Executor_Specialist.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
             [
@@ -3356,13 +3356,18 @@ class CharacterSeeder extends Seeder
                 'faction' => "images/factions/120px-Rhodes_Island.webp",
                 'class' => 'images/classes/Supporter.png',
                 'archetype' => 'images/archetypes/supporter/50px-Bard_Supporter.webp',
-                'rarity' => '1★',
+                'rarity' => 1,
                 'dp_cost' => 3,
             ],
         ];
 
         foreach ($characters as $data) {
             Character::create($data);
+        }
+
+        foreach (Character::all() as $char) {
+            $char->rarity = intval($char->rarity);
+            $char->save();
         }
     }
 }

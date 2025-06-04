@@ -6,18 +6,20 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 
-class authController extends Controller
+class AuthController extends Controller
 {
     public function register(Request $request)
     {
         $validated = $request->validate([
             'username' => 'required|string|unique:users',
+            'email' => 'required|string|email|unique:users,email',
             'password' => 'required|string|confirmed',
             'is_admin' => 'boolean'
         ]);
 
         $user = User::create([
             'username' => $validated['username'],
+            'email' => $validated['email'],
             'password' => Hash::make($validated['password']),
             'is_admin' => false
         ]);

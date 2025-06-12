@@ -6,8 +6,6 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ScoreController;
 use Illuminate\Support\Facades\Route;
 
-Route::post('/', [AuthController::class, 'register']);
-
 Route::post('/register', [AuthController::class, 'register']);
 
 Route::post('/login', [AuthController::class, 'login']);

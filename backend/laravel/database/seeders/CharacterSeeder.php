@@ -2528,12 +2528,12 @@ class CharacterSeeder extends Seeder
                 'dp_cost' => 14,
             ],
             [
-                'image' => 'images/characters/rarity/6/100px-Wind_Chimes_icon.webp',
+                'image' => 'images/characters/rarity/5/100px-Wind_Chimes_icon.webp',
                 'name' => 'Wind Chimes',
                 'faction' => "images/factions/120px-Yan.webp",
                 'class' => 'images/classes/50px-Guard.png',
                 'archetype' => 'images/archetypes/guard/50px-Crusher_Guard.webp',
-                'rarity' => 6,
+                'rarity' => 5,
                 'dp_cost' => 23,
             ],
             [

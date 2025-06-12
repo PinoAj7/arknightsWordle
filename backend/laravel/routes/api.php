@@ -42,4 +42,3 @@ Route::get('/scores', [ScoreController::class, 'index'])->middleware('auth:sanct
 Route::post('/scores', [ScoreController::class, 'store'])->middleware('auth:sanctum');
 
 Route::get('/scores/user/{userId}', [ScoreController::class, 'myScores'])->middleware('auth:sanctum');
-

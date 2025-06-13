@@ -4,12 +4,10 @@ let characters = [];
 let targetCharacter = null;
 let gameOver = false;
 
-// Fondo y celdas
 const bgBase = "bg-gray-300";
 const bgCorrect = "bg-green-500";
 const bgWrong = "bg-red-500";
 
-// Calcula ID del personaje del día
 function getDailyCharacterId(total) {
     const today = new Date().toISOString().slice(0, 10);
     let hash = 0;
@@ -37,8 +35,6 @@ async function fetchTarget() {
 function createRow(character) {
     const row = document.createElement('div');
     row.className = "grid grid-cols-7 gap-2 items-center bg-gray-100 p-2 rounded shadow";
-
-    const fields = ['image', 'name', 'faction', 'class', 'archetype', 'rarity', 'dp_cost'];
 
     fields.forEach(field => {
         const cell = document.createElement('div');
@@ -89,27 +85,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const suggestions = document.getElementById('suggestions');
 
     input.addEventListener('input', () => {
-        if (gameOver) return;
         const value = input.value.toLowerCase();
         suggestions.innerHTML = '';
-        if (!value) {
-            suggestions.classList.add('hidden');
-            return;
-        }
-
-        const filtered = characters.filter(c => c.name.toLowerCase().startsWith(value));
-        filtered.forEach(c => {
-            const li = document.createElement('li');
-            li.textContent = c.name;
-            li.className = "p-2 hover:bg-gray-200 cursor-pointer";
-            li.addEventListener('click', () => {
-                createRow(c);
-                input.value = '';
-                suggestions.innerHTML = '';
-                suggestions.classList.add('hidden');
-            });
-            suggestions.appendChild(li);
-        });
 
         suggestions.classList.remove('hidden');
     });
@@ -141,14 +118,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password }),
         });
-
-        if (!res.ok) return alert("Login fallido");
-
-        const data = await res.json();
-        localStorage.setItem('token', data.token);
-        modal.classList.add('hidden');
-        alert("Sesión iniciada correctamente");
-        updateUI();
     });
 
     registerForm.addEventListener('submit', async (e) => {
@@ -162,37 +131,3 @@ document.addEventListener('DOMContentLoaded', async () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, email, password }),
         });
-
-        if (!res.ok) return alert("Registro fallido");
-
-        const data = await res.json();
-        localStorage.setItem('token', data.token);
-        modal.classList.add('hidden');
-        alert("Usuario registrado y logueado");
-        updateUI();
-    });
-
-    updateUI();
-});
-
-function showLoginForm() {
-    loginForm.classList.remove('hidden');
-    registerForm.classList.add('hidden');
-}
-
-function showRegisterForm() {
-    loginForm.classList.add('hidden');
-    registerForm.classList.remove('hidden');
-}
-
-function updateUI() {
-    const token = localStorage.getItem('token');
-    if (token) {
-        document.getElementById('auth-button').textContent = 'Logout';
-        document.getElementById('auth-button').onclick = () => {
-            localStorage.removeItem('token');
-            alert("Sesión cerrada");
-            location.reload();
-        };
-    }
-}

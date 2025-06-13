@@ -3,6 +3,9 @@ const API_URL = "http://localhost:8000";
 let characters = [];
 let targetCharacter = null;
 let gameOver = false;
+let attempts = 0;
+let maxAttempts = 10;
+let score = 1000;
 
 const bgBase = "bg-gray-300";
 const bgCorrect = "bg-green-500";
@@ -26,13 +29,49 @@ async function fetchCharacters() {
 
 async function fetchTarget() {
     const id = getDailyCharacterId(characters.length);
+    const stored = localStorage.getItem('targetCharacter');
+    if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed.id === id) {
+            targetCharacter = parsed;
+            return;
+        }
+    }
     const res = await fetch(`${API_URL}/api/characters/${id}`);
     if (!res.ok) return alert("Error al cargar personaje objetivo");
     targetCharacter = await res.json();
-    console.log("🎯 Personaje del día:", targetCharacter.name);
+    localStorage.setItem('targetCharacter', JSON.stringify(targetCharacter));
 }
 
+let labelsAdded = false;
+
 function createRow(character) {
+    const fields = ['image', 'name', 'faction', 'class', 'archetype', 'rarity', 'dp_cost'];
+    const fieldLabels = {
+        image: "Imagen",
+        name: "Nombre",
+        faction: "Facción",
+        class: "Clase",
+        archetype: "Arquetipo",
+        rarity: "Rareza",
+        dp_cost: "Costo DP"
+    };
+
+    if (!labelsAdded) {
+        const labelRow = document.createElement('div');
+        labelRow.className = "grid grid-cols-7 gap-2 mb-1 px-2";
+
+        fields.forEach(field => {
+            const label = document.createElement('div');
+            label.textContent = fieldLabels[field];
+            label.className = "text-xs font-semibold text-center text-black-600";
+            labelRow.appendChild(label);
+        });
+
+        document.getElementById('attempts').appendChild(labelRow);
+        labelsAdded = true;
+    }
+
     const row = document.createElement('div');
     row.className = "grid grid-cols-7 gap-2 items-center bg-gray-100 p-2 rounded shadow";
 
@@ -72,62 +111,59 @@ function createRow(character) {
 
     if (character.name === targetCharacter.name) {
         document.getElementById('guess-input').disabled = true;
-        alert("¡Correcto! Has adivinado el personaje del día 🎉");
+        alert(`¡Correcto! Has adivinado el personaje del día 🎉\nPuntuación final: ${score}`);
         gameOver = true;
+        localStorage.setItem('gameOver', 'true');
+    } else {
+        attempts++;
+        score = Math.max(0, 1000 - attempts * 100);
+        if (attempts >= maxAttempts) {
+            gameOver = true;
+            document.getElementById('guess-input').disabled = true;
+            alert(`¡Se acabaron los intentos! El personaje era: ${targetCharacter.name}\nPuntuación final: ${score}`);
+            localStorage.setItem('gameOver', 'true');
+        }
     }
+    localStorage.setItem('attempts', attempts);
+    localStorage.setItem('score', score);
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
     await fetchCharacters();
     await fetchTarget();
 
+    attempts = parseInt(localStorage.getItem('attempts')) || 0;
+    score = parseInt(localStorage.getItem('score')) || 1000;
+    gameOver = localStorage.getItem('gameOver') === 'true';
+
     const input = document.getElementById('guess-input');
     const suggestions = document.getElementById('suggestions');
 
+    if (gameOver) input.disabled = true;
+
     input.addEventListener('input', () => {
+        if (gameOver) return;
         const value = input.value.toLowerCase();
         suggestions.innerHTML = '';
+        if (!value) {
+            suggestions.classList.add('hidden');
+            return;
+        }
+
+        const filtered = characters.filter(c => c.name.toLowerCase().startsWith(value));
+        filtered.forEach(c => {
+            const li = document.createElement('li');
+            li.textContent = c.name;
+            li.className = "p-2 hover:bg-gray-200 cursor-pointer";
+            li.addEventListener('click', () => {
+                createRow(c);
+                input.value = '';
+                suggestions.innerHTML = '';
+                suggestions.classList.add('hidden');
+            });
+            suggestions.appendChild(li);
+        });
 
         suggestions.classList.remove('hidden');
     });
-
-    const modal = document.getElementById('auth-modal');
-    const loginForm = document.getElementById('login-form');
-    const registerForm = document.getElementById('register-form');
-    const loginBtn = document.getElementById('login-button');
-    const registerBtn = document.getElementById('register-button');
-    const toggleRegisterBtn = document.getElementById('toggle-register');
-    const toggleLoginBtn = document.getElementById('toggle-login');
-    const authButton = document.getElementById('auth-button');
-
-    loginBtn.addEventListener('click', () => {
-        modal.classList.remove('hidden');
-        showLoginForm();
-    });
-
-    toggleRegisterBtn.addEventListener('click', showRegisterForm);
-    toggleLoginBtn.addEventListener('click', showLoginForm);
-
-    loginForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const email = document.getElementById('login-email').value;
-        const password = document.getElementById('login-password').value;
-
-        const res = await fetch(`${API_URL}/api/login`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, password }),
-        });
-    });
-
-    registerForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const name = document.getElementById('register-name').value;
-        const email = document.getElementById('register-email').value;
-        const password = document.getElementById('register-password').value;
-
-        const res = await fetch(`${API_URL}/api/register`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, email, password }),
-        });
+});

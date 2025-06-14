@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('game');
 });
 
+Route::get('/auth', function () {
+    return view('auth');
+})->name('auth');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

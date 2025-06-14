@@ -56,7 +56,7 @@ async function fetchTarget() {
     localStorage.setItem('targetCharacter', JSON.stringify(targetCharacter));
 }
 
-function createRow(character, isNewAttempt = true) {
+function createRow(character) {
     const fields = ['image', 'name', 'faction', 'class', 'archetype', 'rarity', 'dp_cost'];
     const fieldLabels = {
         image: "Imagen",
@@ -68,16 +68,19 @@ function createRow(character, isNewAttempt = true) {
         dp_cost: "Costo DP"
     };
 
+    // Añadir fila de etiquetas solo una vez
     if (!document.getElementById('labels-row')) {
         const labelRow = document.createElement('div');
         labelRow.id = 'labels-row';
         labelRow.className = "grid grid-cols-7 gap-2 mb-1 px-2";
+
         fields.forEach(field => {
             const label = document.createElement('div');
             label.textContent = fieldLabels[field];
             label.className = "text-xs font-semibold text-center text-black-600";
             labelRow.appendChild(label);
         });
+
         document.getElementById('attempts').appendChild(labelRow);
     }
 
@@ -120,10 +123,10 @@ function createRow(character, isNewAttempt = true) {
 
     if (character.name === targetCharacter.name) {
         document.getElementById('guess-input').disabled = true;
-        if (isNewAttempt) alert(`¡Correcto! Has adivinado el personaje del día 🎉\nPuntuación final: ${score}`);
+        alert(`¡Correcto! Has adivinado el personaje del día 🎉\nPuntuación final: ${score}`);
         gameOver = true;
         localStorage.setItem('gameOver', 'true');
-    } else if (isNewAttempt) {
+    } else {
         attempts++;
         score = Math.max(0, 1000 - attempts * 100);
         if (attempts >= maxAttempts) {
@@ -133,11 +136,8 @@ function createRow(character, isNewAttempt = true) {
             localStorage.setItem('gameOver', 'true');
         }
     }
-
-    if (isNewAttempt) {
-        localStorage.setItem('attempts', attempts);
-        localStorage.setItem('score', score);
-    }
+    localStorage.setItem('attempts', attempts);
+    localStorage.setItem('score', score);
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -151,10 +151,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Cargamos el historial de intentos o empezamos vacío
     guessHistory = JSON.parse(localStorage.getItem('guessHistory')) || [];
 
-    // Restauramos intentos previos en pantalla SIN incrementar puntuación ni intentos
+    // Restauramos intentos previos en pantalla
     guessHistory.forEach(saved => {
         const original = characters.find(c => c.id === saved.id);
-        if (original) createRow(original, false);
+        if (original) createRow(original);
     });
 
     const input = document.getElementById('guess-input');
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             li.textContent = c.name;
             li.className = "p-2 hover:bg-gray-200 cursor-pointer";
             li.addEventListener('click', () => {
-                createRow(c, true);
+                createRow(c);
 
                 // Guardamos el intento
                 guessHistory.push({ id: c.id });

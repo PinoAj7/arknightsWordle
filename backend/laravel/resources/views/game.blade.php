@@ -30,56 +30,6 @@
             <div id="attempts" class="space-y-2 mt-4 bg-gray-800 p-4 rounded text-white"></div>
         </div>
 
-        <!-- Modal de login/registro -->
-        <div id="login-modal" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden z-50">
-            <div class="bg-white p-8 rounded shadow-md w-96 relative">
-                <button id="close-modal" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">&times;</button>
-        
-                <!-- Login form -->
-                <div id="login-form">
-                    <h2 class="text-xl font-bold mb-4">Iniciar Sesión</h2>
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
-                        <div class="mb-4">
-                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                            <input type="email" name="email" id="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm">
-                        </div>
-                        <div class="mb-4">
-                            <label for="password" class="block text-sm font-medium text-gray-700">Contraseña</label>
-                            <input type="password" name="password" id="password" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm">
-                        </div>
-                        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Entrar</button>
-                    </form>
-                <p class="mt-4 text-sm">¿No tienes cuenta? <a href="#" id="show-register" class="text-blue-500 hover:underline">Regístrate</a></p>
-            </div>
-
-            <!-- Register form -->
-            <div id="register-form" class="hidden">
-                <h2 class="text-xl font-bold mb-4">Registrarse</h2>
-                <form method="POST" action="{{ route('register') }}">
-                    @csrf
-                    <div class="mb-4">
-                        <label for="username" class="block text-sm font-medium text-gray-700">Nombre de Usuario</label>
-                        <input type="text" name="username" id="username" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm">
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                        <input type="email" name="email" id="register-email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm">
-                    </div>
-                    <div class="mb-4">
-                        <label for="password" class="block text-sm font-medium text-gray-700">Contraseña</label>
-                        <input type="password" name="password" id="register-password" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm">
-                    </div>
-                    <div class="mb-4">
-                        <label for="password_confirmation" class="block text-sm font-medium text-gray-700">Confirmar Contraseña</label>
-                        <input type="password" name="password_confirmation" id="password_confirmation" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm">
-                    </div>
-                    <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">Registrarse</button>
-                </form>
-            <p class="mt-4 text-sm">¿Ya tienes cuenta? <a href="#" id="show-login" class="text-blue-500 hover:underline">Inicia sesión</a></p>
-        </div>
-    </div>
-
     <script src="{{ asset('js/game.js') }}"></script>
 
 </body>

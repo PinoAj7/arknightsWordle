@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Arknights Wordle</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body class="relative min-h-screen flex flex-col text-gray-800">
@@ -18,6 +19,9 @@
         <!-- Header -->
         <header class="bg-gray-300 bg-opacity-90 shadow p-4 flex flex-col sm:flex-row items-center justify-between">
             <h1 class="text-2xl font-bold text-gray-900 mb-2 sm:mb-0">Adivina el Personaje de Arknights</h1>
+            @auth
+                <p class="text-gray-700 mb-2 sm:mb-0">Bienvenido, <strong>{{ Auth::user()->username }}</strong></p>
+            @endauth
             <div class="space-x-2">
                 @auth
                     <form method="POST" action="{{ route('logout') }}" class="inline">
@@ -26,7 +30,7 @@
                     </form>
                 @else
                     <button onclick="window.location.href='/auth'" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Login</button>
-                    <button onclick="window.location.href='/auth#register'" class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Registro</button>
+                    <button onclick="window.location.href='/auth/register'" class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Registro</button>
                 @endauth
             </div>
         </header>

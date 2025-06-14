@@ -8,6 +8,11 @@ use App\Models\User;
 
 class AuthController extends Controller
 {
+    public function showRegisterForm()
+    {
+        return view('auth.register'); 
+    }
+
     public function register(Request $request)
     {
         try {
@@ -33,28 +38,26 @@ class AuthController extends Controller
         }
     }
 
-    public function login(Request $request)
-    {
-        $user = User::where('email', $request->email)->first();
+    public function showLogin() {
+        return view('auth.login');
+    }
 
-        if (!$user || !Hash::check($request->password, $user->password)) {
-            return response()->json(['error' => 'Credenciales inválidas'], 401);
+    public function login(Request $request) {
+        $credentials = $request->only('email', 'password');
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+            return redirect()->intended('/');
         }
 
-        $token = $user->createToken('token-name')->plainTextToken;
-        return response()->json(['token' => $token]);
+        return back()->with('error', 'Las credenciales no coinciden.');
     }
 
-    public function logout(Request $request)
-    {
-        $request->user()->currentAccessToken()->delete();
-
-        return response()->json(['message' => 'Sesión cerrada.']);
-    }
-
-    public function me(Request $request)
-    {
-        return response()->json($request->user());
+    public function logout(Request $request) {
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect('/');
     }
 
 }

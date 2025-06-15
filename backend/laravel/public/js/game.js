@@ -56,6 +56,28 @@ async function fetchTarget() {
     localStorage.setItem('targetCharacter', JSON.stringify(targetCharacter));
 }
 
+async function saveScore() {
+    if (!score || score === 0) return;
+
+    try {
+        const res = await fetch(`${API_URL}/api/scores`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+                'X-XSRF-TOKEN': decodeURIComponent(document.cookie.match(/XSRF-TOKEN=([^;]+)/)[1])
+            },
+            credentials: 'include',
+            body: JSON.stringify({ points: score })
+        });
+
+        const data = await res.json();
+        console.log("Puntuación guardada:", data);
+    } catch (err) {
+        console.error("Error al guardar puntuación:", err);
+    }
+}
+
 function createRow(character, isNewAttempt = true) {
     const fields = ['image', 'name', 'faction', 'class', 'archetype', 'rarity', 'dp_cost'];
     const fieldLabels = {
@@ -123,6 +145,7 @@ function createRow(character, isNewAttempt = true) {
         if (isNewAttempt) alert(`¡Correcto! Has adivinado el personaje del día 🎉\nPuntuación final: ${score}`);
         gameOver = true;
         localStorage.setItem('gameOver', 'true');
+        saveScore();
     } else if (isNewAttempt) {
         attempts++;
         score = Math.max(0, 1000 - attempts * 100);
@@ -131,6 +154,7 @@ function createRow(character, isNewAttempt = true) {
             document.getElementById('guess-input').disabled = true;
             alert(`¡Se acabaron los intentos! El personaje era: ${targetCharacter.name}\nPuntuación final: ${score}`);
             localStorage.setItem('gameOver', 'true');
+            saveScore();
         }
     }
 

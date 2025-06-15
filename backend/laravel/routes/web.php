@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ScoreController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -14,6 +15,8 @@ Route::post('/auth/login', [AuthController::class, 'login']);
 Route::get('/auth/register', [AuthController::class, 'showRegisterForm'])->name('register.form');
 Route::post('/auth/register', [AuthController::class, 'register']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth');
+
+Route::get('/scoreboard', [ScoreController::class, 'show'])->middleware('auth')->name('scoreboard');
 
 Route::get('/dashboard', function () {
     return redirect('/'); 

@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <title>Arknights Wordle</title>
+    <title>Tabla de Puntuaciones - Arknights Wordle</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -18,42 +18,43 @@
 
         <!-- Header -->
         <header class="bg-gray-300 bg-opacity-90 shadow p-4 flex flex-col sm:flex-row items-center justify-between">
-            <h1 class="text-2xl font-bold text-gray-900 mb-2 sm:mb-0">Adivina el Personaje de Arknights</h1>
-    
+            <h1 class="text-2xl font-bold text-gray-900 mb-2 sm:mb-0">Tabla de Puntuaciones</h1>
+
             @auth
                 <p class="text-gray-700 mb-2 sm:mb-0">Bienvenido, <strong>{{ Auth::user()->username }}</strong></p>
             @endauth
 
             <div class="space-x-2">
-                @auth
-                    @if(Auth::user()->is_admin)
-                        <button onclick="window.location.href='{{ route('admin.dashboard') }}'" class="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">
-                            Panel Admin
-                        </button>
-                    @endif
-                    {{-- Botón para ver puntuaciones --}}
-                    <button onclick="window.location.href='{{ route('scoreboard') }}'" class="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition">
-                        Puntuaciones
-                    </button>
+                <button onclick="window.location.href='{{ url('/') }}'" class="px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 transition">Volver al Juego</button>
 
-                    {{-- Logout --}}
+                @auth
                     <form method="POST" action="{{ route('logout') }}" class="inline">
                         @csrf
                         <button type="submit" class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition">Logout</button>
                     </form>
-                @else
-                    <button onclick="window.location.href='/auth'" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Login</button>
-                    <button onclick="window.location.href='/auth/register'" class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Registro</button>
                 @endauth
             </div>
         </header>
 
         <!-- Main -->
-        <main class="container mx-auto max-w-xl p-4 flex-grow">
-            <div id="game-container" class="bg-white p-4 rounded shadow">
-                <input id="guess-input" type="text" placeholder="Escribe el nombre..." class="w-full p-2 border rounded mb-2" autocomplete="off" />
-                <ul id="suggestions" class="bg-white border rounded hidden max-h-40 overflow-auto"></ul>
-                <div id="attempts" class="space-y-2 mt-4 bg-gray-800 p-4 rounded text-white"></div>
+        <main class="container mx-auto max-w-4xl p-4 flex-grow">
+            <div class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-bold mb-4">Historial de Puntuaciones</h2>
+
+                <table class="w-full table-auto border border-gray-300 text-sm sm:text-base">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="px-4 py-2 border">Usuario</th>
+                            <th class="px-4 py-2 border">Fecha</th>
+                            <th class="px-4 py-2 border">Puntuación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-2 border text-center text-gray-500" colspan="3">No hay puntuaciones disponibles todavía.</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
@@ -65,8 +66,5 @@
         </footer>
 
     </div>
-
-    <script src="{{ asset('js/game.js') }}"></script>
-
 </body>
 </html>

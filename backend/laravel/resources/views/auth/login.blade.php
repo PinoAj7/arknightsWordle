@@ -8,7 +8,7 @@
         <div class="z-10 w-full max-w-md bg-gray-800 bg-opacity-90 p-8 rounded shadow-lg">
             <h1 class="text-2xl font-bold mb-6 text-center text-white">Iniciar sesión en Arknights Wordle</h1>
 
-            <form method="POST" action="{{ route('login') }}">
+            <form method="POST" action="/auth/login">
                 @csrf
 
                 <!-- Email -->

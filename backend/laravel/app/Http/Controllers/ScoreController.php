@@ -24,10 +24,17 @@ class ScoreController extends Controller
             'points' => 'required|integer',
         ]);
 
-        $validated['date'] = now()->toDateString();
-
-        $score = Score::create($validated);
+        $score = Score::create([
+            'user_id' => auth()->id(),
+            'points' => $validated['points'],
+            'date' => now()->toDateString(),
+        ]);
 
         return response()->json($score, 201);
+    }
+
+    public function show()
+    {
+        return view('scoreboard');
     }
 }

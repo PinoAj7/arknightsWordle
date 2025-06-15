@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 
 class CharacterController extends Controller
 {
-    
     public function index()
     {
         return Character::all();
@@ -36,7 +35,11 @@ class CharacterController extends Controller
 
         $character = Character::create($validated);
 
-        return response()->json($character, 201);
+        if ($request->wantsJson()) {
+            return response()->json($character, 201);
+        }
+
+        return redirect()->route('admin.characters.index')->with('success', 'Personaje creado');
     }
 
     public function update(Request $request, $id)
@@ -48,10 +51,14 @@ class CharacterController extends Controller
         $character = Character::findOrFail($id);
         $character->update($request->all());
 
-        return $character;
+        if ($request->wantsJson()) {
+            return response()->json($character);
+        }
+
+        return redirect()->route('admin.characters.index')->with('success', 'Personaje actualizado');
     }
 
-    public function destroy($id)
+    public function destroy(Request $request, $id)
     {
         if (!$request->user() || !$request->user()->is_admin) {
             return response()->json(['message' => 'Acceso denegado'], 403);
@@ -60,6 +67,27 @@ class CharacterController extends Controller
         $character = Character::findOrFail($id);
         $character->delete();
 
-        return response()->json(['message' => 'Personaje eliminado']);
+        if ($request->wantsJson()) {
+            return response()->json(['message' => 'Personaje eliminado']);
+        }
+
+        return redirect()->route('admin.characters.index')->with('success', 'Personaje eliminado');
+    }
+
+    public function indexView()
+    {
+        $characters = Character::all();
+        return view('admin.characters.index', compact('characters'));
+    }
+
+    public function editView($id)
+    {
+        $character = Character::findOrFail($id);
+        return view('admin.characters.edit', compact('character'));
+    }
+
+    public function createView()
+    {
+        return view('admin.characters.create');
     }
 }

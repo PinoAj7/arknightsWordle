@@ -21,7 +21,6 @@ class ScoreController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'user_id' => 'required|integer|exists:users,id',
             'points' => 'required|integer',
         ]);
 

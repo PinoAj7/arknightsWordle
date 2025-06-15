@@ -63,4 +63,3 @@ class CharacterController extends Controller
         return response()->json(['message' => 'Personaje eliminado']);
     }
 }
-

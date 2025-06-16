@@ -72,7 +72,6 @@
             <p>Todos los derechos de imágenes y contenido pertenecen a <strong>Yostar</strong> y <strong>Hypergryph</strong>.</p>
             <p>Este proyecto es fanmade y no está afiliado oficialmente.</p>
         </footer>
-
     </div>
 </body>
 </html>

@@ -51,7 +51,6 @@
                     <a href="{{ route('admin.characters.index') }}" class="block p-6 bg-green-500 text-white rounded hover:bg-green-600 transition text-center font-medium">
                         Gestión de Personajes
                     </a>
-
                 </div>
 
             </div>
@@ -65,6 +64,5 @@
         </footer>
 
     </div>
-
 </body>
 </html>

@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Laravel\Sanctum\PersonalAccessToken;
 
 class AuthController extends Controller
 {
+    
     public function showRegisterForm()
     {
         return view('auth.register'); 
@@ -32,10 +34,10 @@ class AuthController extends Controller
             return response()->json($user, 201);
 
         } catch (\Illuminate\Validation\ValidationException $e) {
-            return response()->json(['error' => 'Credenciales inválidas'], 401);
+            return response()->json(['errors' => $e->errors()], 422);
 
         } catch (\Exception $e) {
-            return response()->json(['error' => 'Error en el registro'], 500);
+            return response()->json(['error' => 'Server error'], 500);
         }
     }
 
@@ -44,14 +46,19 @@ class AuthController extends Controller
     }
 
     public function login(Request $request) {
-        $credentials = $request->only('email', 'password');
+        $credentials = $request->validate([
+            'email' => 'required|email',
+            'password' => 'required'
+        ]);
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
             return redirect()->intended('/');
         }
 
-        return back()->with('error', 'Las credenciales no coinciden.');
+        return back()->withErrors([
+            'email' => 'Las credenciales no coinciden.',
+        ])->onlyInput('email');
     }
 
     public function logout(Request $request) {
@@ -60,5 +67,35 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
         return redirect('/');
     }
+    
+    public function apiLogin(Request $request)
+    {
+        $credentials = $request->validate([
+            'email' => 'required|email',
+            'password' => 'required'
+        ]);
 
+        if (!Auth::attempt($credentials)) {
+            return response()->json([
+                'message' => 'Unauthorized'
+            ], 401);
+        }
+
+        $user = User::where('email', $request->email)->first();
+        $token = $user->createToken('API Token')->plainTextToken;
+
+        return response()->json([
+            'user' => $user,
+            'token' => $token
+        ]);
+    }
+
+    public function apiLogout(Request $request)
+    {
+        $request->user()->currentAccessToken()->delete();
+
+        return response()->json([
+            'message' => 'Successfully logged out'
+        ]);
+    }
 }

@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/register', [AuthController::class, 'register']);
 
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'apiLogin']);
+
+Route::post('/logout', [AuthController::class, 'apiLogout'])->middleware('auth:sanctum');
 
 Route::get('/user', [AuthController::class, 'me'])->middleware('auth:sanctum');
 

@@ -35,6 +35,8 @@ class ScoreController extends Controller
 
     public function show()
     {
-        return view('scoreboard');
+        $scores = Score::with('user')->orderBy('created_at', 'desc')->paginate(20); 
+        
+        return view('scoreboard', ['scores' => $scores]);
     }
 }

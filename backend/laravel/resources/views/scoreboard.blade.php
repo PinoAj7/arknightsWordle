@@ -50,9 +50,17 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td class="px-4 py-2 border text-center text-gray-500" colspan="3">No hay puntuaciones disponibles todavía.</td>
-                        </tr>
+                        @forelse($scores as $score)
+                            <tr class="{{ $loop->even ? 'bg-gray-50' : '' }}">
+                                <td class="px-4 py-2 border">{{ $score->user->username }}</td>
+                                <td class="px-4 py-2 border">{{ $score->date }}</td>
+                                <td class="px-4 py-2 border text-center">{{ $score->points }}</td>
+                            </tr>
+                        @empty
+                            <tr>
+                                <td class="px-4 py-2 border text-center text-gray-500" colspan="3">No hay puntuaciones disponibles todavía.</td>
+                            </tr>
+                        @endforelse
                     </tbody>
                 </table>
             </div>

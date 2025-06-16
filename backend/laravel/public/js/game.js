@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "http://34.198.4.209:8000"
 
 let characters = [];
 let targetCharacter = null;
@@ -11,7 +11,7 @@ const bgBase = "bg-gray-300";
 const bgCorrect = "bg-green-500";
 const bgWrong = "bg-red-500";
 
-let guessHistory = []; // Aquí guardaremos los ids de los personajes que el usuario ha intentado
+let guessHistory = []; 
 
 function seededRandom(seed) {
     let x = Math.sin(seed) * 10000;

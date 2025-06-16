@@ -12,8 +12,6 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/user', [AuthController::class, 'me'])->middleware('auth:sanctum');
 
-Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
-
 Route::get('/characters', [CharacterController::class, 'index']);
 
 Route::get('/characters/{id}', [CharacterController::class, 'show']);
